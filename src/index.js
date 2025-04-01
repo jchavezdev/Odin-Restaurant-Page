@@ -1,4 +1,2 @@
-import pageLoad from './pageLoad';
-
-//Load Page
-pageLoad();
+import * as pageLoad from './pageLoad';
+pageLoad.default(); 
